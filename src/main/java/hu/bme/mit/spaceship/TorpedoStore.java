@@ -29,7 +29,7 @@ public class TorpedoStore {
       }
     }
   }
-
+  //javítottam a fire metódust, hogy a torpedó számot is figyelembe vegye
   public boolean fire(int numberOfTorpedos){
     if(numberOfTorpedos < 1 || numberOfTorpedos > this.torpedoCount){
           return false;
